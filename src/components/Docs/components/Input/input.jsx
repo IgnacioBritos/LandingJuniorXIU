@@ -1,6 +1,6 @@
 import { Input } from "junior-xui";
 import InputStyles from "./InputStyles";
-import Footer from "../../../foter/Foter";
+
 const InputComponents = () => {
   const codeImport = `import { Input } from 'junior-xui';`;
   return (
