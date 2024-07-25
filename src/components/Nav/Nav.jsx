@@ -21,10 +21,10 @@ const Nav = () => {
         <button onClick={toggleTheme} className="size-5 flex items-center justify-center">
           { theme === true ? <Sun /> : <Moon /> }
         </button>
-        <a href="https://github.com/IgnacioBritos/Junior-xui" className="size-5 flex items-center justify-center">
+        <a href="https://github.com/IgnacioBritos/Junior-xui" target="_blank" className="size-5 flex items-center justify-center">
           <GitHub />
         </a>
-        <a href="https://www.linkedin.com/in/ignacio-gaspar-britos/" className="size-5 flex items-center justify-center">
+        <a href="https://www.linkedin.com/in/ignacio-gaspar-britos/" target="_blank" className="size-5 flex items-center justify-center">
           <LinkedIn />
         </a>
       </div>
