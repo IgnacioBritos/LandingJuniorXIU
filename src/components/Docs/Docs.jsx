@@ -9,7 +9,7 @@ import CardComponents from "./components/Card/Card";
 const Docs = () => {
   return (
     <div className="flex h-screen pt-12">
-      <aside className="w-[300px] pl-10 p-4 overflow-auto">
+      <aside className="w-[150px] pl-10 p-4 overflow-auto">
         <AsideNav />
       </aside>
       <main className="flex flex-1 flex-col mx-8 px-4 my-4 overflow-auto">
